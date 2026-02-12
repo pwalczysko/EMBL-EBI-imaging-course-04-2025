@@ -15,6 +15,7 @@ dependencies:
     - matplotlib==3.8.4
     - scikit-image
     - bioio
+    - cellpose
     # - pandas==2.2.3
     # - scikit-learn==1.6.1
     # - geojson==3.2.0
