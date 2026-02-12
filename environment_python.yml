@@ -1,0 +1,22 @@
+name: imaging_course_p312
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.12.*
+  - conda-forge::ipywidgets==8.0.4
+  - pip
+  - ipykernel
+  - ftputil  # added only for downloaded file from idr
+  - pip:
+    # - napari[all]==0.5.6
+    - jupyter==1.0.0
+    - matplotlib==3.8.4
+    - scikit-image
+    - bioio
+    # - pandas==2.2.3
+    # - scikit-learn==1.6.1
+    # - geojson==3.2.0
+    # - btrack==0.6.5
+    # - seaborn==0.13.2
